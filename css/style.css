@@ -1,0 +1,140 @@
+.padding-left-right{
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+.mySlides{
+    width: 100%;
+    height: 100%;
+}
+
+.w3-container{
+    padding: 2% 7%;
+}
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 62px;
+}
+h3{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 120%;
+}
+
+
+/* Full screen image for background */
+body, html {
+    height: 100%;
+}
+
+.fs-img { 
+    /* The image used */
+    background-image: url("/img/socialmedia.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs-img2 { 
+    /* The image used */
+    background-image: url("/img/social_media1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs-img3 { 
+    /* The image used */
+    background-image: url("/img/internet-5-0.jpg");
+
+    /* Full height */
+    height: 100%; 
+    
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs-img4 { 
+    /* The image used */
+    background-image: url("/img/mediasocial.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Fullscreen video */
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    height: 100%;
+}
+
+@media only screen and (min-width: 900px) {
+    #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 65%; 
+    height: auto;
+
+    }
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.32);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.opacity{
+    background: rgba(0, 0, 0, 0.2);
+    color: #f1f1f1;
+}
+.box{
+    padding: 5px;
+}
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+    
